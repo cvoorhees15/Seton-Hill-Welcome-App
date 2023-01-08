@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7670E5A296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E59296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift */; };
+		D7670E5C296B637800E05FD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E5B296B637800E05FD2 /* ContentView.swift */; };
+		D7670E5E296B637900E05FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7670E5D296B637900E05FD2 /* Assets.xcassets */; };
+		D7670E61296B637900E05FD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7670E60296B637900E05FD2 /* Preview Assets.xcassets */; };
+		D7670E6C296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E6B296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift */; };
+		D7670E77296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E76296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7670E68296B637A00E05FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7670E4E296B637700E05FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7670E55296B637700E05FD2;
+			remoteInfo = "Seton Hill Welcome App";
+		};
+		D7670E73296B637A00E05FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7670E4E296B637700E05FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7670E55296B637700E05FD2;
+			remoteInfo = "Seton Hill Welcome App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7670E56296B637700E05FD2 /* Seton Hill Welcome App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seton Hill Welcome App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7670E59296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seton_Hill_Welcome_AppApp.swift; sourceTree = "<group>"; };
+		D7670E5B296B637800E05FD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7670E5D296B637900E05FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7670E60296B637900E05FD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7670E62296B637900E05FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7670E67296B637A00E05FD2 /* Seton Hill Welcome AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seton Hill Welcome AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7670E6B296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seton_Hill_Welcome_AppTests.swift; sourceTree = "<group>"; };
+		D7670E6D296B637A00E05FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7670E72296B637A00E05FD2 /* Seton Hill Welcome AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seton Hill Welcome AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7670E76296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seton_Hill_Welcome_AppUITests.swift; sourceTree = "<group>"; };
+		D7670E78296B637A00E05FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7670E53296B637700E05FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7670E64296B637A00E05FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7670E6F296B637A00E05FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7670E4D296B637700E05FD2 = {
+			isa = PBXGroup;
+			children = (
+				D7670E58296B637700E05FD2 /* Seton Hill Welcome App */,
+				D7670E6A296B637A00E05FD2 /* Seton Hill Welcome AppTests */,
+				D7670E75296B637A00E05FD2 /* Seton Hill Welcome AppUITests */,
+				D7670E57296B637700E05FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7670E57296B637700E05FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7670E56296B637700E05FD2 /* Seton Hill Welcome App.app */,
+				D7670E67296B637A00E05FD2 /* Seton Hill Welcome AppTests.xctest */,
+				D7670E72296B637A00E05FD2 /* Seton Hill Welcome AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7670E58296B637700E05FD2 /* Seton Hill Welcome App */ = {
+			isa = PBXGroup;
+			children = (
+				D7670E59296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift */,
+				D7670E5B296B637800E05FD2 /* ContentView.swift */,
+				D7670E5D296B637900E05FD2 /* Assets.xcassets */,
+				D7670E62296B637900E05FD2 /* Info.plist */,
+				D7670E5F296B637900E05FD2 /* Preview Content */,
+			);
+			path = "Seton Hill Welcome App";
+			sourceTree = "<group>";
+		};
+		D7670E5F296B637900E05FD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7670E60296B637900E05FD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7670E6A296B637A00E05FD2 /* Seton Hill Welcome AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7670E6B296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift */,
+				D7670E6D296B637A00E05FD2 /* Info.plist */,
+			);
+			path = "Seton Hill Welcome AppTests";
+			sourceTree = "<group>";
+		};
+		D7670E75296B637A00E05FD2 /* Seton Hill Welcome AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7670E76296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift */,
+				D7670E78296B637A00E05FD2 /* Info.plist */,
+			);
+			path = "Seton Hill Welcome AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7670E55296B637700E05FD2 /* Seton Hill Welcome App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7670E7B296B637A00E05FD2 /* Build configuration list for PBXNativeTarget "Seton Hill Welcome App" */;
+			buildPhases = (
+				D7670E52296B637700E05FD2 /* Sources */,
+				D7670E53296B637700E05FD2 /* Frameworks */,
+				D7670E54296B637700E05FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seton Hill Welcome App";
+			productName = "Seton Hill Welcome App";
+			productReference = D7670E56296B637700E05FD2 /* Seton Hill Welcome App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7670E66296B637A00E05FD2 /* Seton Hill Welcome AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7670E7E296B637A00E05FD2 /* Build configuration list for PBXNativeTarget "Seton Hill Welcome AppTests" */;
+			buildPhases = (
+				D7670E63296B637A00E05FD2 /* Sources */,
+				D7670E64296B637A00E05FD2 /* Frameworks */,
+				D7670E65296B637A00E05FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7670E69296B637A00E05FD2 /* PBXTargetDependency */,
+			);
+			name = "Seton Hill Welcome AppTests";
+			productName = "Seton Hill Welcome AppTests";
+			productReference = D7670E67296B637A00E05FD2 /* Seton Hill Welcome AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7670E71296B637A00E05FD2 /* Seton Hill Welcome AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7670E81296B637A00E05FD2 /* Build configuration list for PBXNativeTarget "Seton Hill Welcome AppUITests" */;
+			buildPhases = (
+				D7670E6E296B637A00E05FD2 /* Sources */,
+				D7670E6F296B637A00E05FD2 /* Frameworks */,
+				D7670E70296B637A00E05FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7670E74296B637A00E05FD2 /* PBXTargetDependency */,
+			);
+			name = "Seton Hill Welcome AppUITests";
+			productName = "Seton Hill Welcome AppUITests";
+			productReference = D7670E72296B637A00E05FD2 /* Seton Hill Welcome AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7670E4E296B637700E05FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D7670E55296B637700E05FD2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D7670E66296B637A00E05FD2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D7670E55296B637700E05FD2;
+					};
+					D7670E71296B637A00E05FD2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D7670E55296B637700E05FD2;
+					};
+				};
+			};
+			buildConfigurationList = D7670E51296B637700E05FD2 /* Build configuration list for PBXProject "Seton Hill Welcome App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7670E4D296B637700E05FD2;
+			productRefGroup = D7670E57296B637700E05FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7670E55296B637700E05FD2 /* Seton Hill Welcome App */,
+				D7670E66296B637A00E05FD2 /* Seton Hill Welcome AppTests */,
+				D7670E71296B637A00E05FD2 /* Seton Hill Welcome AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7670E54296B637700E05FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7670E61296B637900E05FD2 /* Preview Assets.xcassets in Resources */,
+				D7670E5E296B637900E05FD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7670E65296B637A00E05FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7670E70296B637A00E05FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7670E52296B637700E05FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7670E5C296B637800E05FD2 /* ContentView.swift in Sources */,
+				D7670E5A296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7670E63296B637A00E05FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7670E6C296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7670E6E296B637A00E05FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7670E77296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7670E69296B637A00E05FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7670E55296B637700E05FD2 /* Seton Hill Welcome App */;
+			targetProxy = D7670E68296B637A00E05FD2 /* PBXContainerItemProxy */;
+		};
+		D7670E74296B637A00E05FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7670E55296B637700E05FD2 /* Seton Hill Welcome App */;
+			targetProxy = D7670E73296B637A00E05FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7670E79296B637A00E05FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7670E7A296B637A00E05FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7670E7C296B637A00E05FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Seton Hill Welcome App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Seton Hill Welcome App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu.cvoorhees.Seton-Hill-Welcome-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7670E7D296B637A00E05FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Seton Hill Welcome App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Seton Hill Welcome App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu.cvoorhees.Seton-Hill-Welcome-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7670E7F296B637A00E05FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Seton Hill Welcome AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu.cvoorhees.Seton-Hill-Welcome-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seton Hill Welcome App.app/Seton Hill Welcome App";
+			};
+			name = Debug;
+		};
+		D7670E80296B637A00E05FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Seton Hill Welcome AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu.cvoorhees.Seton-Hill-Welcome-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seton Hill Welcome App.app/Seton Hill Welcome App";
+			};
+			name = Release;
+		};
+		D7670E82296B637A00E05FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Seton Hill Welcome AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu.cvoorhees.Seton-Hill-Welcome-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Seton Hill Welcome App";
+			};
+			name = Debug;
+		};
+		D7670E83296B637A00E05FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Seton Hill Welcome AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shu.cvoorhees.Seton-Hill-Welcome-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Seton Hill Welcome App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7670E51296B637700E05FD2 /* Build configuration list for PBXProject "Seton Hill Welcome App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7670E79296B637A00E05FD2 /* Debug */,
+				D7670E7A296B637A00E05FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7670E7B296B637A00E05FD2 /* Build configuration list for PBXNativeTarget "Seton Hill Welcome App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7670E7C296B637A00E05FD2 /* Debug */,
+				D7670E7D296B637A00E05FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7670E7E296B637A00E05FD2 /* Build configuration list for PBXNativeTarget "Seton Hill Welcome AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7670E7F296B637A00E05FD2 /* Debug */,
+				D7670E80296B637A00E05FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7670E81296B637A00E05FD2 /* Build configuration list for PBXNativeTarget "Seton Hill Welcome AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7670E82296B637A00E05FD2 /* Debug */,
+				D7670E83296B637A00E05FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7670E4E296B637700E05FD2 /* Project object */;
+}
