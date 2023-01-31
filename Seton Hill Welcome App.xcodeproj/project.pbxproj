@@ -23,6 +23,10 @@
 		D78AF33D2982FB9800E2D09A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AF33C2982FB9800E2D09A /* MapView.swift */; };
 		D79515FC29842E2500800406 /* GriffinsCoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FB29842E2500800406 /* GriffinsCoveView.swift */; };
 		D79515FE2984307D00800406 /* VibeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FD2984307D00800406 /* VibeView.swift */; };
+		D7951600298830D300800406 /* McKennaGymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FF298830D300800406 /* McKennaGymView.swift */; };
+		D7951602298831DF00800406 /* FieldHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951601298831DF00800406 /* FieldHouseView.swift */; };
+		D795160629883FC700800406 /* BoyleLoungeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D795160529883FC700800406 /* BoyleLoungeView.swift */; };
+		D79516082988419E00800406 /* ReevesLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79516072988419E00800406 /* ReevesLibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		D78AF33C2982FB9800E2D09A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D79515FB29842E2500800406 /* GriffinsCoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GriffinsCoveView.swift; sourceTree = "<group>"; };
 		D79515FD2984307D00800406 /* VibeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeView.swift; sourceTree = "<group>"; };
+		D79515FF298830D300800406 /* McKennaGymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McKennaGymView.swift; sourceTree = "<group>"; };
+		D7951601298831DF00800406 /* FieldHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldHouseView.swift; sourceTree = "<group>"; };
+		D795160529883FC700800406 /* BoyleLoungeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyleLoungeView.swift; sourceTree = "<group>"; };
+		D79516072988419E00800406 /* ReevesLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReevesLibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +188,10 @@
 				D7867C7329770F6300DB9231 /* LoweDiningHallView.swift */,
 				D79515FB29842E2500800406 /* GriffinsCoveView.swift */,
 				D79515FD2984307D00800406 /* VibeView.swift */,
+				D79515FF298830D300800406 /* McKennaGymView.swift */,
+				D7951601298831DF00800406 /* FieldHouseView.swift */,
+				D795160529883FC700800406 /* BoyleLoungeView.swift */,
+				D79516072988419E00800406 /* ReevesLibraryView.swift */,
 			);
 			path = "Location Views";
 			sourceTree = "<group>";
@@ -313,15 +325,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7951602298831DF00800406 /* FieldHouseView.swift in Sources */,
 				D78AF333298078F700E2D09A /* GymOptionsView.swift in Sources */,
 				D78AF3352981765100E2D09A /* StudyOptionsView.swift in Sources */,
 				D7867C7729786CB700DB9231 /* HomeView.swift in Sources */,
+				D7951600298830D300800406 /* McKennaGymView.swift in Sources */,
+				D795160629883FC700800406 /* BoyleLoungeView.swift in Sources */,
 				D78AF337298179A800E2D09A /* DormOptionsView.swift in Sources */,
 				D79515FC29842E2500800406 /* GriffinsCoveView.swift in Sources */,
 				D7867C7429770F6300DB9231 /* LoweDiningHallView.swift in Sources */,
 				D78AF33B29817F9E00E2D09A /* ChapelView.swift in Sources */,
 				D78AF331297B120400E2D09A /* DiningOptionsView.swift in Sources */,
 				D78AF33D2982FB9800E2D09A /* MapView.swift in Sources */,
+				D79516082988419E00800406 /* ReevesLibraryView.swift in Sources */,
 				D7670E5A296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift in Sources */,
 				D79515FE2984307D00800406 /* VibeView.swift in Sources */,
 				D78AF33929817D9000E2D09A /* ClassroomOptionsView.swift in Sources */,

@@ -34,17 +34,6 @@ struct GymOptionsView: View {
             
             NavigationLink(
                 destination: LoweDiningHallView(),
-                label: {Text("Sullivan Gym")
-                    .bold()
-                    .frame(width: 250, height: 30)
-                    .background(Color("App_Red"))
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                    .padding(5)
-                })
-            
-            NavigationLink(
-                destination: LoweDiningHallView(),
                 label: {Text("Field House")
                     .bold()
                     .frame(width: 250, height: 30)
