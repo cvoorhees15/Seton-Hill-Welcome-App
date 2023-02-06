@@ -12,7 +12,7 @@ struct MapView: View {
         Image("SHU_Campus_Map")
             .resizable()
             .scaledToFill()
-            .frame(width:55, height:320)
+            .frame(width:50, height:415)
             .rotationEffect(Angle(degrees:90))
             .navigationTitle("Campus Map")
             .offset(y:-10)

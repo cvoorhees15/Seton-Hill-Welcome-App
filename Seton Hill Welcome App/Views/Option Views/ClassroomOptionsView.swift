@@ -13,19 +13,19 @@ struct ClassroomOptionsView: View {
             Image("SHU_Scenery_5")
                 .resizable()
                 .scaledToFill()
-                .frame(width:300, height:200)
+                .frame(width:375, height:300)
                 .cornerRadius(50)
             
             Text("Choose The Class Building")
                 .bold()
-                .navigationTitle("Study Spot Options")
+                .navigationTitle("Classroom Buildings")
                 .padding(10)
             
             NavigationLink(
                 destination: LoweDiningHallView(),
                 label: {Text("Administration")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
@@ -35,18 +35,17 @@ struct ClassroomOptionsView: View {
                 destination: LoweDiningHallView(),
                 label: {Text("Maura")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    .padding(5)
                 })
             
             NavigationLink(
                 destination: LoweDiningHallView(),
                 label: {Text("Boyle")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
@@ -56,11 +55,10 @@ struct ClassroomOptionsView: View {
                 destination: LoweDiningHallView(),
                 label: {Text("Lynch")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    .padding(5)
                 })
         }
     }

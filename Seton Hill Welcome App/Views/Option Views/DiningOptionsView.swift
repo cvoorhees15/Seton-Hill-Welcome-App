@@ -13,7 +13,7 @@ struct DiningOptionsView: View {
             Image("SHU_Scenery_1")
                 .resizable()
                 .scaledToFill()
-                .frame(width:300, height:200)
+                .frame(width:375, height:300)
                 .cornerRadius(50)
                 .offset(y:-10)
             
@@ -26,7 +26,7 @@ struct DiningOptionsView: View {
                 destination: LoweDiningHallView(),
                 label: {Text("Lowe Dining Hall")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
@@ -36,18 +36,17 @@ struct DiningOptionsView: View {
                 destination: GriffinsCoveView(),
                 label: {Text("Griffins Cove")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    .padding(5)
                 })
             
             NavigationLink(
                 destination: VibeView(),
                 label: {Text("The Vibe")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)

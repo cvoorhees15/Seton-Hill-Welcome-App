@@ -13,7 +13,7 @@ struct GymOptionsView: View {
             Image("SHU_Scenery_2")
                 .resizable()
                 .scaledToFill()
-                .frame(width:300, height:200)
+                .frame(width:375, height:300)
                 .cornerRadius(50)
                 .offset(y:-10)
             
@@ -23,23 +23,24 @@ struct GymOptionsView: View {
                 .padding(10)
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: McKennaGymView(),
                 label: {Text("Mckenna Gym")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: FieldHouseView(),
                 label: {Text("Field House")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
+                    .padding(5)
                 })
         }
     }

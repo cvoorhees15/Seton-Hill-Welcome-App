@@ -14,17 +14,18 @@ struct McKennaGymView: View {
             Image("McKenna_Gym")
                 .resizable()
                 .scaledToFill()
-                .frame(width:300, height:200)
+                .frame(width:375, height:300)
                 .cornerRadius(50)
                 .offset(y:-10)
             
             Text("This is a gym on campus accessible for all students. It is located in the McKenna Center which is attached to Sullivan Hall. Here you will find treadmills, bikes, dumbells, squat and bench press racks, cable machines, an aerobics room and more! The area is accessed by scanning you student ID card.")
                 .navigationTitle("McKenna Center Fitness Area")
-                .padding(10)
+                .padding(20)
                 .multilineTextAlignment(.center)
                 .background(Color("App_Red"))
                 .cornerRadius(10)
                 .foregroundColor(.white)
+                .font(.title3)
         }
     }
 }

@@ -12,7 +12,7 @@ struct ChapelView: View {
         Image("Saint_Joseph_Chapel")
             .resizable()
             .scaledToFill()
-            .frame(width:300, height:200)
+            .frame(width:375, height:300)
             .cornerRadius(50)
             .offset(y:-10)
             

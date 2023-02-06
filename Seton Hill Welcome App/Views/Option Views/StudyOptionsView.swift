@@ -13,7 +13,7 @@ struct StudyOptionsView: View {
             Image("SHU_Scenery_3")
                 .resizable()
                 .scaledToFill()
-                .frame(width:300, height:200)
+                .frame(width:375, height:300)
                 .cornerRadius(50)
                 .offset(y:-10)
             
@@ -23,31 +23,30 @@ struct StudyOptionsView: View {
                 .padding(10)
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: BoyleLoungeView(),
                 label: {Text("Boyle Lounge")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: ReevesLibraryView(),
                 label: {Text("Reeves Library")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
-                    .padding(5)
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
-                label: {Text("Admin Classrooms")
+                destination: AdminHallwayView(),
+                label: {Text("Admin Hallways")
                     .bold()
-                    .frame(width: 250, height: 30)
+                    .frame(width: 250, height: 40)
                     .background(Color("App_Red"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
