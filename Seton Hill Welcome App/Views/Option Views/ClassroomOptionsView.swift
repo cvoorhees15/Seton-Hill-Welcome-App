@@ -22,7 +22,7 @@ struct ClassroomOptionsView: View {
                 .padding(10)
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: AdminBuildingView(),
                 label: {Text("Administration")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -32,7 +32,7 @@ struct ClassroomOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: MauraHallView(),
                 label: {Text("Maura")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -42,7 +42,7 @@ struct ClassroomOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: BoyleCenterView(),
                 label: {Text("Boyle")
                     .bold()
                     .frame(width: 250, height: 40)

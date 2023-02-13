@@ -21,6 +21,7 @@ struct HomeView: View {
                         trailing:
                             Image (systemName: "gear")
                     )
+                    .font(.title2)
                 
                 Image("Seton_Hill_Drive")
                     .resizable()

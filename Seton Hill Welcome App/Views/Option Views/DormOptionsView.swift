@@ -23,7 +23,7 @@ struct DormOptionsView: View {
                 .offset(y:-10)
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: HaveyHallView(),
                 label: {Text("Havey Hall")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -34,7 +34,7 @@ struct DormOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: BrownleeHallView(),
                 label: {Text("Brownlee Hall")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -45,7 +45,7 @@ struct DormOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: DechantalHallView(),
                 label: {Text("Dechantal Hall")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -56,7 +56,7 @@ struct DormOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: FarrellHallView(),
                 label: {Text("Farrell Hall")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -67,7 +67,7 @@ struct DormOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: SistersOfCharityHallView(),
                 label: {Text("Sisters of Charity Hall")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -78,7 +78,7 @@ struct DormOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: CanevinAndLoweHallsView(),
                 label: {Text("Canevin and Lowe Halls")
                     .bold()
                     .frame(width: 250, height: 40)
@@ -89,7 +89,7 @@ struct DormOptionsView: View {
                 })
             
             NavigationLink(
-                destination: LoweDiningHallView(),
+                destination: MauraHallDormView(),
                 label: {Text("Maura Hall")
                     .bold()
                     .frame(width: 250, height: 40)

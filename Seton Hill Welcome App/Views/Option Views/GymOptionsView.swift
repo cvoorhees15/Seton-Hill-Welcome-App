@@ -23,7 +23,7 @@ struct GymOptionsView: View {
                 .padding(10)
             
             NavigationLink(
-                destination: McKennaGymView(),
+                destination: MckennaGymView(),
                 label: {Text("Mckenna Gym")
                     .bold()
                     .frame(width: 250, height: 40)

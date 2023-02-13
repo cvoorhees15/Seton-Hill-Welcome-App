@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct McKennaGymView: View {
+struct MckennaGymView: View {
     var body: some View {
         VStack{
             
@@ -32,6 +32,6 @@ struct McKennaGymView: View {
 
 struct McKennaGymView_Previews: PreviewProvider {
     static var previews: some View {
-        McKennaGymView()
+        MckennaGymView()
     }
 }

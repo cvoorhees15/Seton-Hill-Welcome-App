@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70757E8299A927000BAD8D9 /* AdminBuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70757E7299A926F00BAD8D9 /* AdminBuildingView.swift */; };
+		D70757EA299A95FA00BAD8D9 /* JustifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70757E9299A95FA00BAD8D9 /* JustifiedText.swift */; };
+		D70757EE299A995000BAD8D9 /* MauraHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70757ED299A995000BAD8D9 /* MauraHallView.swift */; };
+		D70757F0299A9C1F00BAD8D9 /* BoyleCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70757EF299A9C1F00BAD8D9 /* BoyleCenterView.swift */; };
 		D7670E5A296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E59296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift */; };
 		D7670E5E296B637900E05FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7670E5D296B637900E05FD2 /* Assets.xcassets */; };
 		D7670E61296B637900E05FD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7670E60296B637900E05FD2 /* Preview Assets.xcassets */; };
 		D7670E6C296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E6B296B637A00E05FD2 /* Seton_Hill_Welcome_AppTests.swift */; };
 		D7670E77296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7670E76296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift */; };
+		D776D64F29917A5200165A3F /* HaveyHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776D64E29917A5200165A3F /* HaveyHallView.swift */; };
+		D776D65129917C9500165A3F /* BrownleeHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776D65029917C9500165A3F /* BrownleeHallView.swift */; };
+		D776D65329917FB400165A3F /* DechantalHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776D65229917FB400165A3F /* DechantalHallView.swift */; };
+		D776D6552991838100165A3F /* FarrellHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776D6542991838100165A3F /* FarrellHallView.swift */; };
 		D7867C7429770F6300DB9231 /* LoweDiningHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7867C7329770F6300DB9231 /* LoweDiningHallView.swift */; };
 		D7867C7729786CB700DB9231 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7867C7629786CB700DB9231 /* HomeView.swift */; };
 		D78AF331297B120400E2D09A /* DiningOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AF330297B120400E2D09A /* DiningOptionsView.swift */; };
@@ -23,11 +31,14 @@
 		D78AF33D2982FB9800E2D09A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AF33C2982FB9800E2D09A /* MapView.swift */; };
 		D79515FC29842E2500800406 /* GriffinsCoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FB29842E2500800406 /* GriffinsCoveView.swift */; };
 		D79515FE2984307D00800406 /* VibeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FD2984307D00800406 /* VibeView.swift */; };
-		D7951600298830D300800406 /* McKennaGymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FF298830D300800406 /* McKennaGymView.swift */; };
+		D7951600298830D300800406 /* MckennaGymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FF298830D300800406 /* MckennaGymView.swift */; };
 		D7951602298831DF00800406 /* FieldHouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951601298831DF00800406 /* FieldHouseView.swift */; };
 		D795160629883FC700800406 /* BoyleLoungeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D795160529883FC700800406 /* BoyleLoungeView.swift */; };
 		D79516082988419E00800406 /* ReevesLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79516072988419E00800406 /* ReevesLibraryView.swift */; };
 		D795160A298C3F4F00800406 /* AdminHallwayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951609298C3F4F00800406 /* AdminHallwayView.swift */; };
+		D7BB6DF429940D2000503528 /* SistersOfCharityHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB6DF329940D2000503528 /* SistersOfCharityHallView.swift */; };
+		D7BB6DF629940F8000503528 /* CanevinAndLoweHallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB6DF529940F8000503528 /* CanevinAndLoweHallsView.swift */; };
+		D7BB6DF8299413E300503528 /* MauraHallDormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB6DF7299413E300503528 /* MauraHallDormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70757E7299A926F00BAD8D9 /* AdminBuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminBuildingView.swift; sourceTree = "<group>"; };
+		D70757E9299A95FA00BAD8D9 /* JustifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustifiedText.swift; sourceTree = "<group>"; };
+		D70757ED299A995000BAD8D9 /* MauraHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauraHallView.swift; sourceTree = "<group>"; };
+		D70757EF299A9C1F00BAD8D9 /* BoyleCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyleCenterView.swift; sourceTree = "<group>"; };
 		D7670E56296B637700E05FD2 /* Seton Hill Welcome App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seton Hill Welcome App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7670E59296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seton_Hill_Welcome_AppApp.swift; sourceTree = "<group>"; };
 		D7670E5D296B637900E05FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +74,10 @@
 		D7670E72296B637A00E05FD2 /* Seton Hill Welcome AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Seton Hill Welcome AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7670E76296B637A00E05FD2 /* Seton_Hill_Welcome_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seton_Hill_Welcome_AppUITests.swift; sourceTree = "<group>"; };
 		D7670E78296B637A00E05FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776D64E29917A5200165A3F /* HaveyHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveyHallView.swift; sourceTree = "<group>"; };
+		D776D65029917C9500165A3F /* BrownleeHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownleeHallView.swift; sourceTree = "<group>"; };
+		D776D65229917FB400165A3F /* DechantalHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DechantalHallView.swift; sourceTree = "<group>"; };
+		D776D6542991838100165A3F /* FarrellHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarrellHallView.swift; sourceTree = "<group>"; };
 		D7867C7329770F6300DB9231 /* LoweDiningHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoweDiningHallView.swift; sourceTree = "<group>"; };
 		D7867C7629786CB700DB9231 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D78AF330297B120400E2D09A /* DiningOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningOptionsView.swift; sourceTree = "<group>"; };
@@ -70,11 +89,14 @@
 		D78AF33C2982FB9800E2D09A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		D79515FB29842E2500800406 /* GriffinsCoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GriffinsCoveView.swift; sourceTree = "<group>"; };
 		D79515FD2984307D00800406 /* VibeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeView.swift; sourceTree = "<group>"; };
-		D79515FF298830D300800406 /* McKennaGymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McKennaGymView.swift; sourceTree = "<group>"; };
+		D79515FF298830D300800406 /* MckennaGymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MckennaGymView.swift; sourceTree = "<group>"; };
 		D7951601298831DF00800406 /* FieldHouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldHouseView.swift; sourceTree = "<group>"; };
 		D795160529883FC700800406 /* BoyleLoungeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoyleLoungeView.swift; sourceTree = "<group>"; };
 		D79516072988419E00800406 /* ReevesLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReevesLibraryView.swift; sourceTree = "<group>"; };
 		D7951609298C3F4F00800406 /* AdminHallwayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHallwayView.swift; sourceTree = "<group>"; };
+		D7BB6DF329940D2000503528 /* SistersOfCharityHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SistersOfCharityHallView.swift; sourceTree = "<group>"; };
+		D7BB6DF529940F8000503528 /* CanevinAndLoweHallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanevinAndLoweHallsView.swift; sourceTree = "<group>"; };
+		D7BB6DF7299413E300503528 /* MauraHallDormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauraHallDormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +152,7 @@
 				D7670E5D296B637900E05FD2 /* Assets.xcassets */,
 				D7670E62296B637900E05FD2 /* Info.plist */,
 				D7670E5F296B637900E05FD2 /* Preview Content */,
+				D70757E9299A95FA00BAD8D9 /* JustifiedText.swift */,
 			);
 			path = "Seton Hill Welcome App";
 			sourceTree = "<group>";
@@ -190,11 +213,21 @@
 				D7867C7329770F6300DB9231 /* LoweDiningHallView.swift */,
 				D79515FB29842E2500800406 /* GriffinsCoveView.swift */,
 				D79515FD2984307D00800406 /* VibeView.swift */,
-				D79515FF298830D300800406 /* McKennaGymView.swift */,
+				D79515FF298830D300800406 /* MckennaGymView.swift */,
 				D7951601298831DF00800406 /* FieldHouseView.swift */,
 				D795160529883FC700800406 /* BoyleLoungeView.swift */,
 				D79516072988419E00800406 /* ReevesLibraryView.swift */,
 				D7951609298C3F4F00800406 /* AdminHallwayView.swift */,
+				D776D64E29917A5200165A3F /* HaveyHallView.swift */,
+				D776D65029917C9500165A3F /* BrownleeHallView.swift */,
+				D776D65229917FB400165A3F /* DechantalHallView.swift */,
+				D776D6542991838100165A3F /* FarrellHallView.swift */,
+				D7BB6DF329940D2000503528 /* SistersOfCharityHallView.swift */,
+				D7BB6DF529940F8000503528 /* CanevinAndLoweHallsView.swift */,
+				D7BB6DF7299413E300503528 /* MauraHallDormView.swift */,
+				D70757E7299A926F00BAD8D9 /* AdminBuildingView.swift */,
+				D70757ED299A995000BAD8D9 /* MauraHallView.swift */,
+				D70757EF299A9C1F00BAD8D9 /* BoyleCenterView.swift */,
 			);
 			path = "Location Views";
 			sourceTree = "<group>";
@@ -331,19 +364,30 @@
 				D7951602298831DF00800406 /* FieldHouseView.swift in Sources */,
 				D78AF333298078F700E2D09A /* GymOptionsView.swift in Sources */,
 				D78AF3352981765100E2D09A /* StudyOptionsView.swift in Sources */,
+				D7BB6DF429940D2000503528 /* SistersOfCharityHallView.swift in Sources */,
+				D70757E8299A927000BAD8D9 /* AdminBuildingView.swift in Sources */,
 				D7867C7729786CB700DB9231 /* HomeView.swift in Sources */,
-				D7951600298830D300800406 /* McKennaGymView.swift in Sources */,
+				D70757EA299A95FA00BAD8D9 /* JustifiedText.swift in Sources */,
+				D7951600298830D300800406 /* MckennaGymView.swift in Sources */,
 				D795160629883FC700800406 /* BoyleLoungeView.swift in Sources */,
 				D78AF337298179A800E2D09A /* DormOptionsView.swift in Sources */,
 				D79515FC29842E2500800406 /* GriffinsCoveView.swift in Sources */,
 				D795160A298C3F4F00800406 /* AdminHallwayView.swift in Sources */,
 				D7867C7429770F6300DB9231 /* LoweDiningHallView.swift in Sources */,
+				D776D65329917FB400165A3F /* DechantalHallView.swift in Sources */,
 				D78AF33B29817F9E00E2D09A /* ChapelView.swift in Sources */,
+				D776D64F29917A5200165A3F /* HaveyHallView.swift in Sources */,
+				D7BB6DF629940F8000503528 /* CanevinAndLoweHallsView.swift in Sources */,
 				D78AF331297B120400E2D09A /* DiningOptionsView.swift in Sources */,
+				D7BB6DF8299413E300503528 /* MauraHallDormView.swift in Sources */,
+				D776D6552991838100165A3F /* FarrellHallView.swift in Sources */,
 				D78AF33D2982FB9800E2D09A /* MapView.swift in Sources */,
 				D79516082988419E00800406 /* ReevesLibraryView.swift in Sources */,
 				D7670E5A296B637800E05FD2 /* Seton_Hill_Welcome_AppApp.swift in Sources */,
+				D70757F0299A9C1F00BAD8D9 /* BoyleCenterView.swift in Sources */,
+				D776D65129917C9500165A3F /* BrownleeHallView.swift in Sources */,
 				D79515FE2984307D00800406 /* VibeView.swift in Sources */,
+				D70757EE299A995000BAD8D9 /* MauraHallView.swift in Sources */,
 				D78AF33929817D9000E2D09A /* ClassroomOptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
