@@ -9,23 +9,28 @@ import SwiftUI
 
 struct FieldHouseView: View {
     var body: some View {
-        VStack{
-            
-            Image("Field_House_Gym")
-                .resizable()
-                .scaledToFill()
-                .frame(width:375, height:300)
-                .cornerRadius(50)
-                .offset(y:-10)
-            
-            Text("This is a weight room that is exclusive to Seton Hill athletes. It contains more free weights, racks and dumbells than McKenna Gym but less cardio equipment. It is located down the hill behind Boyle Health Sciences Center. It is often reserved for different team lifts but there are still time free time slots for athletes to go lift on their own. This weightroom is also accessed by student ID card scan.")
-                .navigationTitle("Field House Weight Room")
-                .padding(20)
-                .multilineTextAlignment(.center)
-                .background(Color("App_Red"))
-                .cornerRadius(10)
-                .foregroundColor(.white)
-                .font(.title3)
+        ZStack{
+            Color("App_Background")
+                .edgesIgnoringSafeArea(.all)
+            VStack{
+                
+                Image("Field_House_Gym")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width:375, height:300)
+                    .cornerRadius(50)
+                    .offset(y:-10)
+                
+                Text("This is a weight room that is exclusive to Seton Hill student athletes. It contains more free weights, multipurpose racks and dumbells than McKenna Gym, but less cardio equipment. It is located down the hill behind Boyle Health Sciences Center. It is often reserved for different team lifts but aside from those times the space is available 24/7 for athletes to go lift on their own. This weightroom is also accessed by ID card scan.")
+                    .navigationTitle("Field House Weight Room")
+                    .padding(20)
+                    .multilineTextAlignment(.center)
+                    .background(Color("App_Red"))
+                    .cornerRadius(10)
+                    .foregroundColor(Color("App_Gold"))
+                    .lineSpacing(3)
+                    .font(.custom("Arial", size:22))
+            }
         }
     }
 }

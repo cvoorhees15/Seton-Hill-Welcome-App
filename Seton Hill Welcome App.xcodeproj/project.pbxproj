@@ -29,6 +29,7 @@
 		D78AF33929817D9000E2D09A /* ClassroomOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AF33829817D9000E2D09A /* ClassroomOptionsView.swift */; };
 		D78AF33B29817F9E00E2D09A /* ChapelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AF33A29817F9E00E2D09A /* ChapelView.swift */; };
 		D78AF33D2982FB9800E2D09A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78AF33C2982FB9800E2D09A /* MapView.swift */; };
+		D79133CD299EA00600256955 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79133CC299EA00600256955 /* SettingsView.swift */; };
 		D79515FC29842E2500800406 /* GriffinsCoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FB29842E2500800406 /* GriffinsCoveView.swift */; };
 		D79515FE2984307D00800406 /* VibeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FD2984307D00800406 /* VibeView.swift */; };
 		D7951600298830D300800406 /* MckennaGymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79515FF298830D300800406 /* MckennaGymView.swift */; };
@@ -87,6 +88,7 @@
 		D78AF33829817D9000E2D09A /* ClassroomOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomOptionsView.swift; sourceTree = "<group>"; };
 		D78AF33A29817F9E00E2D09A /* ChapelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapelView.swift; sourceTree = "<group>"; };
 		D78AF33C2982FB9800E2D09A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D79133CC299EA00600256955 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D79515FB29842E2500800406 /* GriffinsCoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GriffinsCoveView.swift; sourceTree = "<group>"; };
 		D79515FD2984307D00800406 /* VibeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeView.swift; sourceTree = "<group>"; };
 		D79515FF298830D300800406 /* MckennaGymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MckennaGymView.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				D79515FA29842BE100800406 /* Location Views */,
 				D79515F929842B9300800406 /* Option Views */,
 				D7867C7629786CB700DB9231 /* HomeView.swift */,
+				D79133CC299EA00600256955 /* SettingsView.swift */,
 				D78AF33C2982FB9800E2D09A /* MapView.swift */,
 			);
 			path = Views;
@@ -379,6 +382,7 @@
 				D776D64F29917A5200165A3F /* HaveyHallView.swift in Sources */,
 				D7BB6DF629940F8000503528 /* CanevinAndLoweHallsView.swift in Sources */,
 				D78AF331297B120400E2D09A /* DiningOptionsView.swift in Sources */,
+				D79133CD299EA00600256955 /* SettingsView.swift in Sources */,
 				D7BB6DF8299413E300503528 /* MauraHallDormView.swift in Sources */,
 				D776D6552991838100165A3F /* FarrellHallView.swift in Sources */,
 				D78AF33D2982FB9800E2D09A /* MapView.swift in Sources */,

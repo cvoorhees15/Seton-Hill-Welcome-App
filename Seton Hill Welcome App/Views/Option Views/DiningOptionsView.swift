@@ -9,48 +9,61 @@ import SwiftUI
 
 struct DiningOptionsView: View {
     var body: some View {
-        VStack {
-            Image("SHU_Scenery_1")
-                .resizable()
-                .scaledToFill()
-                .frame(width:375, height:300)
-                .cornerRadius(50)
-                .offset(y:-10)
-            
-            Text("Choose Where You Want To Eat")
-                .bold()
-                .navigationTitle("Food Options")
-                .padding(10)
-            
-            NavigationLink(
-                destination: LoweDiningHallView(),
-                label: {Text("Lowe Dining Hall")
+        ZStack{
+            Color("App_Background")
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                
+                Image("SHU_Logo_Crimson")
+                    .resizable()
+                    .scaledToFit()   
+                
+                Image("SHU_Scenery_1")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width:375, height:300)
+                    .cornerRadius(50)
+                    .padding(10)
+                
+                Text("Choose A Place To Eat")
                     .bold()
-                    .frame(width: 250, height: 40)
-                    .background(Color("App_Red"))
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                })
-            
-            NavigationLink(
-                destination: GriffinsCoveView(),
-                label: {Text("Griffins Cove")
-                    .bold()
-                    .frame(width: 250, height: 40)
-                    .background(Color("App_Red"))
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                })
-            
-            NavigationLink(
-                destination: VibeView(),
-                label: {Text("The Vibe")
-                    .bold()
-                    .frame(width: 250, height: 40)
-                    .background(Color("App_Red"))
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                })
+                    .navigationTitle("Food Options")
+                    .padding(10)
+                    .font(.custom("Arial", size:25))
+                
+                NavigationLink(
+                    destination: LoweDiningHallView(),
+                    label: {Text("Lowe Dining Hall")
+                            .bold()
+                            .frame(width: 250, height: 40)
+                            .background(Color("App_Red"))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .font(.custom("Arial", size:18))
+                    })
+                
+                NavigationLink(
+                    destination: GriffinsCoveView(),
+                    label: {Text("Griffins Cove")
+                            .bold()
+                            .frame(width: 250, height: 40)
+                            .background(Color("App_Red"))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .font(.custom("Arial", size:18))
+                    })
+                
+                NavigationLink(
+                    destination: VibeView(),
+                    label: {Text("The Vibe")
+                            .bold()
+                            .frame(width: 250, height: 40)
+                            .background(Color("App_Red"))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                            .font(.custom("Arial", size:18))
+                    })
+            }
         }
     }
 }

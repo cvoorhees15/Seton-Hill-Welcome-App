@@ -9,13 +9,17 @@ import SwiftUI
 
 struct MapView: View {
     var body: some View {
-        Image("SHU_Campus_Map")
-            .resizable()
-            .scaledToFill()
-            .frame(width:50, height:415)
-            .rotationEffect(Angle(degrees:90))
-            .navigationTitle("Campus Map")
-            .offset(y:-10)
+        ZStack{
+            Color("App_Background")
+                .edgesIgnoringSafeArea(.all)
+            Image("SHU_Campus_Map")
+                .resizable()
+                .scaledToFill()
+                .frame(width:50, height:415)
+                .rotationEffect(Angle(degrees:90))
+                .navigationTitle("Campus Map")            
+                .offset(y:-10)
+        }
         
     }
 }

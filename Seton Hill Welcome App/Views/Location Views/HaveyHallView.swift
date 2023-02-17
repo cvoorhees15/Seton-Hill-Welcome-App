@@ -9,23 +9,28 @@ import SwiftUI
 
 struct HaveyHallView: View {
     var body: some View {
-        VStack{
-            
-            Image("SHU_Scenery_4")
-                .resizable()
-                .scaledToFill()
-                .frame(width:375, height:300)
-                .cornerRadius(50)
-                .offset(y:-10)
-            
-            Text("Havey Hall is one of the dorm buildings occupied by mostly first year students. It was designed by renowned architect Philip Johnson, and contains three floors of double and triple style dorm rooms. It is located in the heart of campus no more than 100 yards away from the Lowe Dining Hall and the Administration building. There are laundry facilities, mailboxes and a resident lounge on the ground floor.")
-                .navigationTitle("Havey Hall")
-                .padding(20)
-                .multilineTextAlignment(.center)
-                .background(Color("App_Red"))
-                .cornerRadius(10)
-                .foregroundColor(.white)
-                .font(.title3)
+        ZStack{
+            Color("App_Background")
+                .edgesIgnoringSafeArea(.all)
+            VStack{
+                
+                Image("SHU_Scenery_4")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width:375, height:300)
+                    .cornerRadius(50)
+                    .offset(y:-10)
+                
+                Text("Havey Hall is a dorm building occupied by mostly first year students. It was designed by renowned architect Philip Johnson, and contains three floors of double and triple style dorm rooms. It is located in the heart of campus no more than 100 yards away from the Lowe Dining Hall, Administration, and Reeves Library.")
+                    .navigationTitle("Havey Hall")
+                    .padding(20)
+                    .multilineTextAlignment(.center)
+                    .background(Color("App_Red"))
+                    .cornerRadius(10)
+                    .foregroundColor(Color("App_Gold"))
+                    .lineSpacing(3)
+                    .font(.custom("Arial", size:22))
+            }
         }
     }
 }
