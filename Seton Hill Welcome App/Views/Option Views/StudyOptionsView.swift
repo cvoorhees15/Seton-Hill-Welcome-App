@@ -15,20 +15,25 @@ struct StudyOptionsView: View {
             VStack {
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .scaledToFit()   
+                    .frame(width:400,height:150)
+                    .cornerRadius(10)
+                    .offset(y:-20)
                 
                 Image("SHU_Scenery_3")
                     .resizable()
+                    .navigationTitle("Study Spots")
+                    .navigationBarTitleDisplayMode(.inline)
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
+                    .offset(y:-20)
                 
                 Text("Choose A Place To Study")
                     .bold()
-                    .navigationTitle("Study Spot Options")
                     .padding(10)
                     .font(.custom("Arial", size:25))
+                    .offset(y:-20)
                 
                 NavigationLink(
                     destination: BoyleLoungeView(),
@@ -39,6 +44,7 @@ struct StudyOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -50,6 +56,7 @@ struct StudyOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -61,6 +68,7 @@ struct StudyOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:-20)
                     })
             }
         }

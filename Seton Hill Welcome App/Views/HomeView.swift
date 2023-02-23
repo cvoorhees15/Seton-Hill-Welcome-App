@@ -9,30 +9,33 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        NavigationView {
+        NavigationView{
             ZStack{
                 Color("App_Background")
                     .edgesIgnoringSafeArea(.all)
                 VStack{
                     Image("SHU_Logo_Crimson")
                         .resizable()
-                        .scaledToFit()
+                        .frame(width:400,height:150)
+                        .cornerRadius(10)
+                        .navigationTitle("Welcome")
+                        .navigationBarTitleDisplayMode(.inline)
                         .navigationBarItems(
                             leading:
-                                NavigationLink(destination: MapView()){Image (systemName: "map")}
-                                .accentColor(Color("Nav_Icons")),
+                                NavigationLink(destination: MapView()){Image("MapGraphic_Button")},
                             trailing:
-                                NavigationLink(destination: SettingsView()){Image (systemName: "globe")}
-                                .accentColor(Color("Nav_Icons"))
-                            
+                                Link(destination:
+                                        URL(string:"https://my.setonhill.edu")!){Image("MySHU_Button")}
                         )
+                        .offset(y:10)
                     
-                    Image("Seton_Hill_Drive")
+                    Image("SHU_Scenery_6")
                         .resizable()
                         .scaledToFill()
                         .frame(width:375, height:300)
                         .cornerRadius(50)
                         .padding(10)
+                        .offset(y:10)
                     
                     NavigationLink(
                         destination: DiningOptionsView(),
@@ -43,6 +46,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
+                                .offset(y:10)
                             
                         })
                     
@@ -55,6 +59,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
+                                .offset(y:10)
                             
                         })
                     
@@ -67,6 +72,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
+                                .offset(y:10)
                             
                         })
                     
@@ -79,6 +85,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
+                                .offset(y:10)
                             
                         })
                     
@@ -91,6 +98,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
+                                .offset(y:10)
                             
                         })
                     
@@ -104,6 +112,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
+                                .offset(y:10)
                             
                         })
                 }

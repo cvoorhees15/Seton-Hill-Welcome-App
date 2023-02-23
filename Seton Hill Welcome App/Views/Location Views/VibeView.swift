@@ -19,7 +19,7 @@ struct VibeView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("This is a dining area on campus located on the first floor of Boyle Health Sciences Center. This location is meant to provide quick and fresh options for students on the go. Note that meal swipes and flex dollars will not work at this location. All items are paid for with cash or card at the self checkout machine.")
                     .navigationTitle("Vibe Fresh Market")
@@ -27,7 +27,7 @@ struct VibeView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

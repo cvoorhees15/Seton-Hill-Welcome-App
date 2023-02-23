@@ -16,15 +16,19 @@ struct DormOptionsView: View {
                 
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .scaledToFit()
-                    .navigationTitle("Dorms")
+                    .frame(width:380,height:130)
+                    .cornerRadius(10)
+                    .offset(y:20)
                 
                 Image("SHU_Scenery_4")
                     .resizable()
+                    .navigationTitle("Dorms")
+                    .navigationBarTitleDisplayMode(.inline)
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
+                    .offset(y:20)
                 
                 NavigationLink(
                     destination: HaveyHallView(),
@@ -35,6 +39,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
                 
@@ -47,6 +52,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
                 
@@ -59,6 +65,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
                 
@@ -71,6 +78,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
                 
@@ -83,6 +91,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
                 
@@ -95,6 +104,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
                 
@@ -107,6 +117,7 @@ struct DormOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:10)
                         
                     })
             }

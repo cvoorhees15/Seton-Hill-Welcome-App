@@ -19,7 +19,7 @@ struct BoyleLoungeView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("The Boyle Health Science Center contains three floors of lounge areas that can be utilized as comfortable study spaces. There are single seats for students to study on their own and also larger couches and tables that can support group study sessions. There are also desks set up with access to apple TV airplay to grant students with a larger screen space if necessary.")
                     .navigationTitle("Boyle Lounge")
@@ -27,7 +27,7 @@ struct BoyleLoungeView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

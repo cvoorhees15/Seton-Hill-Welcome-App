@@ -15,18 +15,19 @@ struct ChapelView: View {
             VStack{
                 Image("Saint_Joseph_Chapel")
                     .resizable()
+                    .navigationTitle("Saint Joseph Chapel")
+                    .navigationBarTitleDisplayMode(.inline)
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .offset(y:-20)
                 
                 Text("As a Catholic university, Seton Hill has a large, beautiful Chapel right on campus. Saint Joseph Chapel is located on the third floor of the Administration Building. Mass and other liturgical services are held here. For those who feel led, the Chapel is typically left open to the student body if there is ever a time where a student wishes to sit in the chapel to decompress or pray.")
-                    .navigationTitle("Saint Joseph Chapel")
                     .padding(20)
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

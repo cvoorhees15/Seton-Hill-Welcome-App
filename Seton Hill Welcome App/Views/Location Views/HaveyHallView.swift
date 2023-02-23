@@ -19,7 +19,7 @@ struct HaveyHallView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("Havey Hall is a dorm building occupied by mostly first year students. It was designed by renowned architect Philip Johnson, and contains three floors of double and triple style dorm rooms. It is located in the heart of campus no more than 100 yards away from the Lowe Dining Hall, Administration, and Reeves Library.")
                     .navigationTitle("Havey Hall")
@@ -27,7 +27,7 @@ struct HaveyHallView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

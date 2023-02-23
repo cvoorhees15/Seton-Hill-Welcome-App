@@ -19,7 +19,7 @@ struct DechantalHallView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("DeChantal Hall is a dorm building occupied by all different classes of students. This building is named after Sister De Chantal Leis, a former dean of students at Seton Hill. DeChantal (Dish) is located towards the back of campus behind Farrell and Brownlee Halls. The building contains two floors of six-person suites. Freshman who are in the Seton Hill Honors program are the only underclass students permitted to live here.")
                     .navigationTitle("DeChantal Hall")
@@ -27,7 +27,7 @@ struct DechantalHallView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

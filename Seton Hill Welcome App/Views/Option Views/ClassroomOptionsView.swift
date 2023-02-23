@@ -16,21 +16,26 @@ struct ClassroomOptionsView: View {
                 
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .scaledToFit()
+                    .frame(width:400,height:150)
+                    .cornerRadius(10)
+                    .offset(y:-20)
                 
-                Image("SHU_Scenery_5")
+                Image("Seton_Hill_Drive")
                     .resizable()
+                    .navigationTitle("Classroom Buildings")
+                    .navigationBarTitleDisplayMode(.inline)
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
+                    .offset(y:-20)
                 
                 Text("Choose The Building Where Your Class Is Located")
                     .bold()
-                    .navigationTitle("Gym Options")
                     .padding(10)
                     .font(.custom("Arial", size:25))
                     .multilineTextAlignment(.center)
+                    .offset(y:-20)
                 
                 NavigationLink(
                     destination: AdminBuildingView(),
@@ -42,6 +47,7 @@ struct ClassroomOptionsView: View {
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
                     })
+                .offset(y:-20)
                 
                 NavigationLink(
                     destination: MauraHallView(),
@@ -53,6 +59,7 @@ struct ClassroomOptionsView: View {
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
                     })
+                .offset(y:-20)
                 
                 NavigationLink(
                     destination: BoyleCenterView(),
@@ -64,6 +71,7 @@ struct ClassroomOptionsView: View {
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
                     })
+                .offset(y:-20)
                 
                 //NavigationLink(
                 //   destination: LoweDiningHallView(),

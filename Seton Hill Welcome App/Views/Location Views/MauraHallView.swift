@@ -19,7 +19,7 @@ struct MauraHallView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("Maura Hall is home to three floors of classrooms and two floors of dorm rooms. This building is directly attached to Administration, Lowe Hall, and Canevin Hall. This includes the main dining area on campus, Lowe Dining Hall. Classrooms are located on floors 1-3 while the dorms reside on floors 4 and 5. The Wukich School of Nursing is located on the ground floor of Maura Hall, while the other two classroom floors hold a wide variety of classes.")
                     .navigationTitle("Maura Hall")
@@ -27,7 +27,7 @@ struct MauraHallView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

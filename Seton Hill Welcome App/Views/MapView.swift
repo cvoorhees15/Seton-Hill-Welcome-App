@@ -17,7 +17,8 @@ struct MapView: View {
                 .scaledToFill()
                 .frame(width:50, height:415)
                 .rotationEffect(Angle(degrees:90))
-                .navigationTitle("Campus Map")            
+                .navigationTitle("Campus Map")
+                .navigationBarTitleDisplayMode(.inline)
                 .offset(y:-10)
         }
         

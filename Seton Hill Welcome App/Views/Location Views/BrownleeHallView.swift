@@ -19,7 +19,7 @@ struct BrownleeHallView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("Brownlee Hall is a dorm building occupied my mostly first year students. The building contains three stories of double style dorm rooms. The building is located across the street from the commuter parking area, A Lot and is directly adjacent to Farrell Hall. In the basement students will find a large lounge area.")
                     .navigationTitle("Brownlee Hall")
@@ -27,7 +27,7 @@ struct BrownleeHallView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

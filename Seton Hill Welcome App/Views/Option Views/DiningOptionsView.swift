@@ -13,23 +13,28 @@ struct DiningOptionsView: View {
             Color("App_Background")
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .scaledToFit()   
+                    .frame(width:400,height:150)
+                    .cornerRadius(10)
+                    .offset(y:-20)
                 
                 Image("SHU_Scenery_1")
                     .resizable()
+                    .navigationTitle("Dining Options")
+                    .navigationBarTitleDisplayMode(.inline)
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
+                    .offset(y:-20)
+                    
                 
                 Text("Choose A Place To Eat")
                     .bold()
-                    .navigationTitle("Food Options")
                     .padding(10)
                     .font(.custom("Arial", size:25))
+                    .offset(y:-20)
                 
                 NavigationLink(
                     destination: LoweDiningHallView(),
@@ -40,6 +45,7 @@ struct DiningOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -51,6 +57,7 @@ struct DiningOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -62,6 +69,7 @@ struct DiningOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .offset(y:-20)
                     })
             }
         }

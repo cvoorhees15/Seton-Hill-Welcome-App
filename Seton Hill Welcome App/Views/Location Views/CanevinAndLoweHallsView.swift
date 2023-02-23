@@ -19,7 +19,7 @@ struct CanevinAndLoweHallsView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("Canevin and Lowe Halls are connected and create two large wings of single style dorm rooms. They are both also connected to Maura Hall, the Administration building and Lowe Dining hall. This makes many classes, offices, and other facilities very accessible to these residents in a very close proximity. The fifth floor of Canevin Hall is an official quiet floor for the use of studying or napping.")
                     .navigationTitle("Canevin and Lowe Halls")
@@ -27,7 +27,7 @@ struct CanevinAndLoweHallsView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }

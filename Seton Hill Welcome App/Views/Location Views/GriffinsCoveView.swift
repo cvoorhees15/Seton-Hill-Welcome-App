@@ -19,7 +19,7 @@ struct GriffinsCoveView: View {
                     .scaledToFill()
                     .frame(width:375, height:300)
                     .cornerRadius(50)
-                    .offset(y:-10)
+                    .padding(20)
                 
                 Text("This is a dining area on campus located in Sullivan Hall, A.K.A the castle building, beneath the book store. The options here have more of a fast food style and you can secure a meal in person or through an online order on the Sidekick app. This is also a great place to spend leftover swipes and flex dollars on the different snacks and drinks that are available.")
                     .navigationTitle("Griffins Cove")
@@ -27,7 +27,7 @@ struct GriffinsCoveView: View {
                     .multilineTextAlignment(.center)
                     .background(Color("App_Red"))
                     .cornerRadius(10)
-                    .foregroundColor(Color("App_Gold"))
+                    .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
                     .font(.custom("Arial", size:22))
             }
