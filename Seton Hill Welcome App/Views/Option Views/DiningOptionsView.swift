@@ -15,8 +15,7 @@ struct DiningOptionsView: View {
             VStack {
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .frame(width:400,height:150)
-                    .cornerRadius(10)
+                    .frame(width:400,height:125)
                     .offset(y:-20)
                 
                 Image("SHU_Scenery_1")

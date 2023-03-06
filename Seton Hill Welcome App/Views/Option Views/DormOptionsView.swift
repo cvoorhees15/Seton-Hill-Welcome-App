@@ -16,8 +16,7 @@ struct DormOptionsView: View {
                 
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .frame(width:380,height:130)
-                    .cornerRadius(10)
+                    .frame(width:400,height:125)
                     .offset(y:20)
                 
                 Image("SHU_Scenery_4")
