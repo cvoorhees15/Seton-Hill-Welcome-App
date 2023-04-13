@@ -25,7 +25,7 @@ struct HomeView: View {
                             trailing:
                                 Link(destination:
                                         URL(string:"https://my.setonhill.edu")!){Image("MySHU_Button")}
-                        )
+                         )
                         .offset(y:10)
                     
                     Image("SHU_Scenery_6")
