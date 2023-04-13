@@ -15,8 +15,8 @@ struct StudyOptionsView: View {
             VStack {
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .frame(width:400,height:125)
-                    .offset(y:-20)
+                    .scaledToFit()
+                    .frame(width:400)
                 
                 Image("SHU_Scenery_3")
                     .resizable()
@@ -26,13 +26,11 @@ struct StudyOptionsView: View {
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
-                    .offset(y:-20)
                 
                 Text("Choose A Place To Study")
                     .bold()
                     .padding(10)
                     .font(.custom("Arial", size:25))
-                    .offset(y:-20)
                 
                 NavigationLink(
                     destination: BoyleLoungeView(),
@@ -43,7 +41,6 @@ struct StudyOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
-                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -55,7 +52,6 @@ struct StudyOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
-                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -66,8 +62,7 @@ struct StudyOptionsView: View {
                             .background(Color("App_Red"))
                             .foregroundColor(.white)
                             .cornerRadius(10)
-                            .font(.custom("Arial", size:18))
-                            .offset(y:-20)
+                            .font(.custom("Arial", size:18))                        
                     })
             }
         }

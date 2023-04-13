@@ -16,8 +16,8 @@ struct ClassroomOptionsView: View {
                 
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .frame(width:400,height:125)
-                    .offset(y:-20)
+                    .scaledToFit()
+                    .frame(width:400)
                 
                 Image("Seton_Hill_Drive")
                     .resizable()
@@ -27,14 +27,12 @@ struct ClassroomOptionsView: View {
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
-                    .offset(y:-20)
                 
                 Text("Choose The Building Where Your Class Is Located")
                     .bold()
                     .padding(10)
                     .font(.custom("Arial", size:25))
                     .multilineTextAlignment(.center)
-                    .offset(y:-20)
                 
                 NavigationLink(
                     destination: AdminBuildingView(),
@@ -45,8 +43,7 @@ struct ClassroomOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
-                    })
-                .offset(y:-20)
+                    })                
                 
                 NavigationLink(
                     destination: MauraHallView(),
@@ -58,7 +55,6 @@ struct ClassroomOptionsView: View {
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
                     })
-                .offset(y:-20)
                 
                 NavigationLink(
                     destination: BoyleCenterView(),
@@ -69,18 +65,8 @@ struct ClassroomOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
+                            .padding(.bottom, 20)
                     })
-                .offset(y:-20)
-                
-                //NavigationLink(
-                //   destination: LoweDiningHallView(),
-                //   label: {Text("Lynch")
-                //      .bold()
-                //       .frame(width: 250, height: 40)
-                //     .background(Color("App_Red"))
-                //     .foregroundColor(.white)
-                //     .cornerRadius(10)
-                // })
             }
         }
     }

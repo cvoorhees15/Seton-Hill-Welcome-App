@@ -16,7 +16,8 @@ struct HomeView: View {
                 VStack{
                     Image("SHU_Logo_Crimson")
                         .resizable()
-                        .frame(width:400,height:125)
+                        .scaledToFit()
+                        .padding(10)
                         .navigationTitle("Welcome")
                         .navigationBarTitleDisplayMode(.inline)
                         .navigationBarItems(
@@ -31,10 +32,11 @@ struct HomeView: View {
                     Image("SHU_Scenery_6")
                         .resizable()
                         .scaledToFill()
-                        .frame(width:375, height:300)
+                        .frame(width:350)
+                        
                         .cornerRadius(50)
-                        .padding(10)
-                        .offset(y:10)
+                        
+                        
                     
                     NavigationLink(
                         destination: DiningOptionsView(),
@@ -45,7 +47,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
-                                .offset(y:10)
+                     
                             
                         })
                     
@@ -58,7 +60,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
-                                .offset(y:10)
+                                
                             
                         })
                     
@@ -71,7 +73,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
-                                .offset(y:10)
+                                
                             
                         })
                     
@@ -84,7 +86,7 @@ struct HomeView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
-                                .offset(y:10)
+                                
                             
                         })
                     
@@ -92,12 +94,12 @@ struct HomeView: View {
                         destination: ClassroomOptionsView(),
                         label: {Text("Classroom")
                                 .bold()
-                                .frame(width: 300, height: 40)
+                                .frame(width: 300, height:40)
                                 .background(Color("App_Red"))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .font(.custom("Arial", size:18))
-                                .offset(y:10)
+                                
                             
                         })
                     
@@ -105,13 +107,13 @@ struct HomeView: View {
                         destination: ChapelView(),
                         label: {Text("Chapel")
                                 .bold()
-                                .padding(10)
                                 .frame(width: 300, height: 40)
                                 .background(Color("App_Red"))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
+                                .padding(.bottom, 20)
                                 .font(.custom("Arial", size:18))
-                                .offset(y:10)
+                                
                             
                         })
                 }

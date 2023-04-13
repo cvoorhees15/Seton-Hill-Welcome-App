@@ -15,8 +15,8 @@ struct GymOptionsView: View {
             VStack {
                 Image("SHU_Logo_Crimson")
                     .resizable()
-                    .frame(width:400,height:125)
-                    .offset(y:-20)
+                    .scaledToFit()
+                    .frame(width:400)
                 
                 Image("SHU_Scenery_2")
                     .resizable()
@@ -26,13 +26,11 @@ struct GymOptionsView: View {
                     .frame(width:375, height:300)
                     .cornerRadius(50)
                     .padding(10)
-                    .offset(y:-20)
                 
                 Text("Choose A Place To Workout")
                     .bold()
                     .padding(10)
                     .font(.custom("Arial", size:25))
-                    .offset(y:-20)
                 
                 NavigationLink(
                     destination: MckennaGymView(),
@@ -43,7 +41,6 @@ struct GymOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .font(.custom("Arial", size:18))
-                            .offset(y:-20)
                     })
                 
                 NavigationLink(
@@ -55,8 +52,7 @@ struct GymOptionsView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                             .padding(5)
-                            .font(.custom("Arial", size:18))
-                            .offset(y:-20)
+                            .font(.custom("Arial", size:18))                        
                     })
             }
         }
