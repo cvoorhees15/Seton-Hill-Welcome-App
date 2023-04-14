@@ -30,7 +30,7 @@ struct BoyleCenterView: View {
                     .cornerRadius(10)
                     .foregroundColor(Color("App_Text"))
                     .lineSpacing(3)
-                    .font(.custom("Arial", size:22))
+                    .font(.custom("Arial", size:20))
             }
         }
     }
