@@ -25,7 +25,7 @@ struct HomeView: View {
                                 NavigationLink(destination: MapView()){Image("MapGraphic_Button")},
                             trailing:
                                 Link(destination:
-                                        URL(string:"https://my.setonhill.edu")!){Image("MySHU_Button")}
+                                        URL(string:"https://apps.apple.com/us/app/myshumobile/id1643039894")!){Image("MySHU_Button")}
                          )
                         .offset(y:10)
                     
